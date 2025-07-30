@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto - ACQUAPURALIFE</title>
+  <meta name="description" content="Contáctanos para cotizar sistemas de purificación de agua residenciales, industriales y semi industriales." />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/3135194260?text=Hola,%20quiero%20más%20información%20sobre%20sus%20sistemas%20de%20purificación." 
+     class="whatsapp-btn" target="_blank">
+     <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <img src="images/logo.png" alt="ACQUAPURALIFE Logo" class="logo" />
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="quienes-somos.html">Quiénes Somos</a>
+        <a href="linea-residencial.html">Residencial</a>
+        <a href="linea-semi-industrial.html">Semi Industrial</a>
+        <a href="linea-industrial.html">Industrial</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="about-hero">
+    <div class="container">
+      <h1>Contáctanos</h1>
+      <p class="subtitle">¿Tienes dudas o deseas una cotización personalizada? Estamos aquí para ayudarte 24/7 por WhatsApp o en nuestra sede en Barranquilla.</p>
+    </div>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <!-- Formulario -->
+        <div class="contact-form">
+          <h2>Envíanos un Mensaje</h2>
+          <p>Completa el formulario y te responderemos en menos de 24 horas.</p>
+
+          <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
+            
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Tu nombre completo" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Correo</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Teléfono</label>
+              <input type="tel" id="phone" name="phone" placeholder="Ej: 3016228816" />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Asunto</label>
+              <select id="subject" name="subject" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Cotización Residencial">Cotización Línea Residencial</option>
+                <option value="Cotización Semi Industrial">Cotización Semi Industrial</option>
+                <option value="Cotización Industrial">Cotización Industrial</option>
+                <option value="Soporte Técnico">Soporte Técnico</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="5" placeholder="Cuéntanos tus necesidades..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary">Enviar Mensaje</button>
+          </form>
+        </div>
+
+        <!-- Información -->
+        <div class="contact-info">
+          <h2>Información de Contacto</h2>
+
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Dirección</strong>
+              <p>Carrera 45 #55-33, Barranquilla, Colombia</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <strong>Teléfono</strong>
+              <p><a href="https://wa.me/3016228816">301 622 8816</a> (Cotizaciones)</p>
+              <p><a href="https://wa.me/3135194260">313 519 4260</a> (Atención 24/7)</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Correo</strong>
+              <p><a href="mailto:acquapuralife@gmail.com">acquapuralife@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <h3>Síguenos</h3>
+            <a href="https://facebook.com/acquapuralife" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/acquapuralife" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">
+        <img src="images/logo.png" alt="ACQUAPURALIFE" />
+      </div>
+      <div class="footer-contact">
+        <p><i class="fas fa-envelope"></i> <a href="mailto:acquapuralife@gmail.com">acquapuralife@gmail.com</a></p>
+        <p><i class="fas fa-phone"></i> +57 313 519 4260</p>
+        <p><i class="fas fa-map-marker-alt"></i> Carrera 45 #55-33, Barranquilla</p>
+      </div>
+      <div class="footer-social">
+        <a href="https://facebook.com/acquapuralife" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com/acquapuralife" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="footer-links">
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Términos de Uso</a>
+        <p>&copy; 2025 ACQUAPURALIFE. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
